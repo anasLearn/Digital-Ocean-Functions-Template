@@ -1,0 +1,31 @@
+packages:
+  - name: pos-notif
+    shared: false
+    functions:
+      - name: routine
+        main: "main"  # The name of the function in the __main__.py file
+        runtime: python:default
+        web: false
+        websecure: false
+        environment:
+#          MERCH_TOKEN: "${MERCH_TOKEN}"
+#          DOMAIN_PREFIX: "${DOMAIN_PREFIX}"
+#
+#
+#          SID: "${SID}"
+#          SMS_TOKEN: "${SMS_TOKEN}"
+#          FROM: "${FROM}"
+#
+#
+#          A1: "${A1}"
+#          M1: "${M1}"
+#          M2: "${M2}"
+#
+#
+#          OPENING_TIME: "${OPENING_TIME}"
+#          CLOSING_TIME: "${CLOSING_TIME}"
+#          HORRAIRE: "${HORRAIRE}"
+
+        limits:
+          memory: 256
+          timeout: 60000
