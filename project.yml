@@ -12,8 +12,8 @@ packages:
 #          DOMAIN_PREFIX: "${DOMAIN_PREFIX}"
 #
 #
-#          SID: "${SID}"
-#          SMS_TOKEN: "${SMS_TOKEN}"
+#          SID: "${T_SID}"
+#          SMS_TOKEN: "${T_TOKEN}"
 #          FROM: "${FROM}"
 #
 #
